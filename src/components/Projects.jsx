@@ -1,8 +1,5 @@
 
 
-
-
-
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 
@@ -23,29 +20,29 @@ const Projects = () => {
         Projects
       </motion.h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Tech Projects Section */}
         <div>
-          <motion.h3
+          <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
-            className="mb-6 text-2xl font-semibold"
+            className="mb-6 flex items-center justify-center"
           >
-            Tech Projects
-          </motion.h3>
+            <h3 className="text-2xl font-semibold">Tech Projects</h3>
+          </motion.div>
           {techProjects.map((project, index) => (
             <motion.div
               key={index}
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.7 }}
-              className="mb-8 p-4 bg-gray-950 rounded-lg shadow-lg"
+              className="mb-8 p-4 bg-gray-950 rounded-lg shadow-lg max-w-md mx-auto"
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="mb-4 w-full h-48 object-cover rounded"
+                className="mb-4 w-full h-64 object-cover rounded"
               />
               <h4 className="text-xl font-semibold mb-2">{project.title}</h4>
               <p className="text-gray-400 mb-4">{project.description}</p>
@@ -75,26 +72,26 @@ const Projects = () => {
 
         {/* Data Analyst Projects Section */}
         <div>
-          <motion.h3
+          <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.5 }}
-            className="mb-6 text-2xl font-semibold"
+            className="mb-6 flex items-center justify-center"
           >
-            Data Analyst Projects
-          </motion.h3>
+            <h3 className="text-2xl font-semibold">Data Analyst Projects</h3>
+          </motion.div>
           {dataAnalystProjects.map((project, index) => (
             <motion.div
               key={index}
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.7 }}
-              className="mb-8 p-4 bg-gray-950 rounded-lg shadow-lg"
+              className="mb-8 p-4 bg-gray-950 rounded-lg shadow-lg max-w-md mx-auto"
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="mb-4 w-full h-48 object-cover rounded"
+                className="mb-4 w-full h-64 object-cover rounded"
               />
               <h4 className="text-xl font-semibold mb-2">{project.title}</h4>
               <p className="text-gray-400 mb-4">{project.description}</p>
@@ -127,4 +124,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
 
