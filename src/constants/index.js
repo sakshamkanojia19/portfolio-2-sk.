@@ -1,6 +1,5 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+import project1 from "../assets/projects/Project1.png";
+
 
 
 export const HERO_CONTENT = ` 
@@ -65,7 +64,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project2,
+    image: project1,
     category: "Tech",
     description:
       "Launched a personal portfolio website to showcase design projects, increasing client and employer engagement by 40%. Enhanced performance by 30% using Vite for faster builds and optimized delivery.",
@@ -74,7 +73,7 @@ export const PROJECTS = [
   },
   {
     title: "Modern Real Estate Website",
-    image: project3,
+    image: project1,
     category: "Tech",
     description:
       "Deployed a responsive real estate platform allowing users to search and book properties. Integrated advanced search filters, location services with Leaflet, and user authentication with Auth0, reducing customer search time by 30% and increasing platform feasibility by 45%. Automation testing with Selenium improved fault tolerance by 20%.",
@@ -94,7 +93,7 @@ export const PROJECTS = [
   },
   {
     title: "Decentralized Cryptocurrency Exchange DApp",
-    image: project2,
+    image: project1,
     category: "Tech",
     description:
       "Developed a decentralized cryptocurrency exchange platform with MetaMask wallet integration, improving user experience and reducing transaction time by 20%. Implemented token slippage functionality, optimizing trade fluctuation management by 15%, and enhanced swapping efficiency by 25% using Agile methodologies.",
@@ -135,7 +134,7 @@ export const PROJECTS = [
       "Analyzed BMI trends from demographic data, improving insight accuracy by 40%. Streamlined data processing using R and RStudio, enhancing efficiency by 35%.",
     technologies: ["R", "RStudio", "Data Visualization"],
     category: "Data Analyst",
-    image: project3,
+    image: project1,
     link: "https://github.com/sakshamkanojia19/IBM-DataScience-DataAnalyst-Project",
   },
   {
@@ -149,7 +148,7 @@ export const PROJECTS = [
       "Data Visualization",
     ],
     category: "Data Analyst",
-    image: project2,
+    image: project1,
     link: "https://github.com/sakshamkanojia19/Data-Analyis-p3-Sales-Dashborad",
   },
 ];
