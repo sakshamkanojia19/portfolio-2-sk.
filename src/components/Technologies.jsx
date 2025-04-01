@@ -5,13 +5,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const techList = [
-  { name: 'Selenium', color: 'text-red-400' },
   { name: 'JavaScript', color: 'text-yellow-400' },
   { name: 'Python', color: 'text-blue-400' },
+  { name: 'Java', color: 'text-green-400' },
   { name: 'React', color: 'text-cyan-400' },
   { name: 'Next.js', color: 'text-gray-300' },
   { name: 'Node.js', color: 'text-green-400' },
   { name: 'Express', color: 'text-green-500' },
+  { name: 'Selenium', color: 'text-red-400' },
+  { name: 'Junit', color: 'text-cyan-400' },
   { name: 'MongoDB', color: 'text-green-600' },
   { name: 'Excel', color: 'text-blue-500' },
   { name: 'Postman', color: 'text-orange-400' },
