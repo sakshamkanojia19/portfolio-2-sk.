@@ -7,7 +7,7 @@ export const HERO_CONTENT = `
    I specialize in building scalable, user-centric applications using React.js, Next.js, Node.js, Express.js, and MongoDB, with expertise in modern UI frameworks like Material-UI and Tailwind CSS. My automation testing skills in Selenium and Jest ensure bug-free deployments, while my data analysis proficiency in Excel, Power BI, and Python drives data-driven decision-making. Passionate about blockchain and cybersecurity, I thrive on solving complex challenges and delivering high-quality, impactful solutions.`
 export const EXPERIENCES = [
   {
-    year: "Jan 2025 - Present",
+    year: "Jan 2025 - Mar 2025",
     role: "Full Stack Developer Intern",
     company: "Unified Mentor",
     description: `Design and deploy AWS microservices (EC2), integrated Auth, and improved backend response by 20%.
