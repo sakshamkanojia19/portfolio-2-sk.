@@ -3,9 +3,21 @@ import project1 from "../assets/projects/Project1.png";
 
 
 export const HERO_CONTENT = ` 
-
-   I specialize in building scalable, user-centric applications using React.js, Next.js, Node.js, Express.js, and MongoDB, with expertise in modern UI frameworks like Material-UI and Tailwind CSS. My automation testing skills in Selenium and Jest ensure bug-free deployments, while my data analysis proficiency in Excel, Power BI, and Python drives data-driven decision-making. Passionate about blockchain and cybersecurity, I thrive on solving complex challenges and delivering high-quality, impactful solutions.`
+I specialize in building scalable full-stack applications using React.js, Next.js, Node.js, and MongoDB, with a strong grasp of modern UI libraries like Tailwind CSS and ShadCN. Skilled in AI automation with ChatGPT, Gemini, and Python, I develop intelligent, workflow-optimizing solutions. I ensure quality with automated testing using Selenium, Postman, and Jest, and bring additional expertise in cloud computing, cybersecurity, and blockchain. Passionate about solving real-world problems through technology, I deliver secure, high-impact digital experiences.
+`   
 export const EXPERIENCES = [
+  {
+    year: "Jan 2025 - Present",
+    role: "   Business AI Automation Trainee",
+    company: "Digital Web Solutions ",
+    description: `Engineered AI-powered Automations and RPA solutions using ChatGPT, Gemini, and RAG models, automating workflows and reducing 
+manual effort by 60%.   
+• Co-develop and integrate LLM-powered chatbots with dev team using LLM, Node.js, Express, and MongoDB, leveraging prompt 
+engineering to deliver 3x more dynamic, context-aware user interactions.  
+• Automated complex business processes using Python, Zapier, Make, and polyglot programming—delivering scalable systems like 
+competitor analysis tools and hiring workflows.`,
+    technologies: ["MongoDB","PostgreSQL","Node.js","Express.js","AI","Automation","Zapier","Make","RPA","LLM","Gemini","ChatGPT","Prompt Engineering","RAG"],
+  },
   {
     year: "Jan 2025 - Mar 2025",
     role: "Full Stack Developer Intern",
@@ -112,45 +124,45 @@ export const PROJECTS = [
     ],
     link:"https://bit-exchangex.netlify.app/"
   },
-  {
-    title: "Retail Sales & Customer Analysis",
-    description:
-      "Analyzed transaction data to identify sales trends and customer behavior, improving insight accuracy by 45%. Optimized data processing using Python, pandas, and NumPy, enhancing data merging and cleaning by 30%.",
-    technologies: [
-      "Python",
-      "pandas",
-      "NumPy",
-      "Jupyter Notebook",
-      "Excel",
-      "Data Visualization",
-    ],
-    category: "Data Analyst",
-    image: project1,
-    link: "https://github.com/sakshamkanojia19/quantium-DA-Tasks-Project",
-  },
-  {
-    title: "People BMI Analysis",
-    description:
-      "Analyzed BMI trends from demographic data, improving insight accuracy by 40%. Streamlined data processing using R and RStudio, enhancing efficiency by 35%.",
-    technologies: ["R", "RStudio", "Data Visualization"],
-    category: "Data Analyst",
-    image: project1,
-    link: "https://github.com/sakshamkanojia19/IBM-DataScience-DataAnalyst-Project",
-  },
-  {
-    title: "Apparels Sales Dashboard",
-    description:
-      "Built an interactive sales dashboard to analyze purchase trends and customer segmentation, increasing sales insights by 40%. Automated reporting using advanced Excel functions, reducing manual effort by 30%.",
-    technologies: [
-      "Excel",
-      "PivotTables",
-      "Data Analysis",
-      "Data Visualization",
-    ],
-    category: "Data Analyst",
-    image: project1,
-    link: "https://github.com/sakshamkanojia19/Data-Analyis-p3-Sales-Dashborad",
-  },
+  // {
+  //   title: "Retail Sales & Customer Analysis",
+  //   description:
+  //     "Analyzed transaction data to identify sales trends and customer behavior, improving insight accuracy by 45%. Optimized data processing using Python, pandas, and NumPy, enhancing data merging and cleaning by 30%.",
+  //   technologies: [
+  //     "Python",
+  //     "pandas",
+  //     "NumPy",
+  //     "Jupyter Notebook",
+  //     "Excel",
+  //     "Data Visualization",
+  //   ],
+  //   category: "Data Analyst",
+  //   image: project1,
+  //   link: "https://github.com/sakshamkanojia19/quantium-DA-Tasks-Project",
+  // },
+  // {
+  //   title: "People BMI Analysis",
+  //   description:
+  //     "Analyzed BMI trends from demographic data, improving insight accuracy by 40%. Streamlined data processing using R and RStudio, enhancing efficiency by 35%.",
+  //   technologies: ["R", "RStudio", "Data Visualization"],
+  //   category: "Data Analyst",
+  //   image: project1,
+  //   link: "https://github.com/sakshamkanojia19/IBM-DataScience-DataAnalyst-Project",
+  // },
+  // {
+  //   title: "Apparels Sales Dashboard",
+  //   description:
+  //     "Built an interactive sales dashboard to analyze purchase trends and customer segmentation, increasing sales insights by 40%. Automated reporting using advanced Excel functions, reducing manual effort by 30%.",
+  //   technologies: [
+  //     "Excel",
+  //     "PivotTables",
+  //     "Data Analysis",
+  //     "Data Visualization",
+  //   ],
+  //   category: "Data Analyst",
+  //   image: project1,
+  //   link: "https://github.com/sakshamkanojia19/Data-Analyis-p3-Sales-Dashborad",
+  // },
 ];
 
 
