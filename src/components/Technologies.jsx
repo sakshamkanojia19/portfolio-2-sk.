@@ -1,7 +1,6 @@
 
 
 
-import React from 'react';
 import { motion } from 'framer-motion';
 
 const techList = [
@@ -14,11 +13,9 @@ const techList = [
   { name: 'Express', color: 'text-green-500' },
   { name: 'Selenium', color: 'text-red-400' },
   { name: 'Junit', color: 'text-cyan-400' },
-  { name: '.NET', color: 'text-cyan-400' },
   { name: 'MongoDB', color: 'text-green-600' },
   { name: 'Excel', color: 'text-blue-500' },
   { name: 'Postman', color: 'text-orange-400' },
-  { name: 'C#', color: 'text-orange-400' },
   { name: 'Jupyter Notebook', color: 'text-yellow-500' },
   { name: 'Pandas', color: 'text-pink-400' },
   { name: 'NumPy', color: 'text-purple-400' },
