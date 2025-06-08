@@ -140,7 +140,7 @@ const childVariants = {
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center py-20 px-4 bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white">
+    <section className="relative min-h-screen flex items-center justify-center py-20 px-4 bg-transparent text-white">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-16">
         
         {/* Profile Image */}
