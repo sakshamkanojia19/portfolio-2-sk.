@@ -10,21 +10,23 @@ export const EXPERIENCES = [
     year: "Jan 2025 - Present",
     role: "   Business AI Automation Trainee",
     company: "Digital Web Solutions ",
-    description: `Engineered AI-powered Automations and RPA solutions using ChatGPT, Gemini, and RAG models, automating workflows and reducing 
-manual effort by 60%.   
-• Co-develop and integrate LLM-powered chatbots with dev team using LLM, Node.js, Express, and MongoDB, leveraging prompt 
-engineering to deliver 3x more dynamic, context-aware user interactions.  
+    description: `Engineered AI-powered Automations and RPA solutions using ChatGPT, Gemini, and RAG models, Agentic AI automating workflows and 
+reducing manual effort by 60%.     
+• Co-develop and integrate LLM-powered Cognitive AI chatbots with dev team using Open AI, React, Node.js, Express, PostgreSQL & 
+MongoDB, leveraging GenAI API and prompt engineering to deliver 3x more results, context-aware user interactions.    
 • Automated complex business processes using Python, Zapier, Make, and polyglot programming—delivering scalable systems like 
-competitor analysis tools and hiring workflows.`,
-    technologies: ["MongoDB","PostgreSQL","Node.js","Express.js","AI","Automation","Zapier","Make","RPA","LLM","Gemini","ChatGPT","Prompt Engineering","RAG"],
+cognitive AI chatbot, competitor analysis tool and hiring workflows.`,
+    technologies: ["MongoDB","PostgreSQL","Node.js","Express.js","AI","Automation","Zapier","Make","RPA","LLM","Gemini","ChatGPT","Prompt Engineering","RAG","Open AI","GenAI"],
   },
   {
     year: "Jan 2025 - Mar 2025",
     role: "Full Stack Developer Intern",
     company: "Unified Mentor",
-    description: `Design and deploy AWS microservices (EC2), integrated Auth, and improved backend response by 20%.
- Improved project delivery efficiency by 30% through teamwork and agile development.
- Containerized microservices using Docker, improving deployment efficiency by 30%.`,
+    description: `Deployed full-stack apps via CI/CD using React.js, Redux, FastAPI, Node.js, AWS(EC2), Docker, MongoDB & Socket.io, WebSocket, 
+Figma, Agile & System Design boosting efficiency & user experience by 35%.   
+• Participated in code reviews, maintained API and code documentation, wrote clean & efficient code increase in 60% project success rate. 
+• Conducted unit testing and functional testing using selenium & Jest for web applications, reducing bugs by 40%.         
+• Implemented API testing on RESTful APIs via Postman, ensuring backend accuracy by 30%. `,
     technologies: ["MERN","React","MongoDB","Node.js","Express.js","React native","Socket.io","recharts"],
   },
   {
