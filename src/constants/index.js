@@ -27,7 +27,7 @@ Figma, Agile & System Design boosting efficiency & user experience by 35%.
 • Participated in code reviews, maintained API and code documentation, wrote clean & efficient code increase in 60% project success rate. 
 • Conducted unit testing and functional testing using selenium & Jest for web applications, reducing bugs by 40%.         
 • Implemented API testing on RESTful APIs via Postman, ensuring backend accuracy by 30%. `,
-    technologies: ["MERN","React","MongoDB","Node.js","Express.js","React native","Socket.io","recharts"],
+    technologies: ["MERN","React","MongoDB","Node.js","Express.js","FastAPI","AWS","Docker","Agile","SDLC","Socket.io","websocket","recharts"],
   },
   {
     year: "Dec 2024 - Jan 2025",
