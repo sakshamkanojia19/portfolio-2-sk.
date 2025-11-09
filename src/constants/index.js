@@ -68,13 +68,13 @@ Figma, Agile & System Design boosting efficiency & user experience by 35%.
 
 export const PROJECTS = [
   {
-    title: "AI-ChatBot",
+    title: " AI-Powered Medical Service Company ChatBot ",
     image: project1,
     category: "Tech",
     description:
-      "Launched a Next.js-based AI chatbot SaaS platform for seamless user site integration, increasing engagement by 40%. Optimized performance by 30% through faster builds, efficient delivery, and automated testing.",
-    technologies:["HTML","CSS","Javascript","TypeScript","Next.js","ShadCN","API","Gemini AI","AI","Framer Motion"],
-      link:"https://botic-ai-chatbot.vercel.app/"
+      "Developed an LLM-based chatbot using React (Vite), Tailwind CSS, FastAPI, and LangChain, trained on medical company data for domain-specific query resolution. • Implemented a RAG pipeline with Pinecone vector DB, enhancing contextual accuracy and response relevance by 45%. • Engineered efficient data ingestion and chunking workflows with LangChain, improving retrieval quality and reducing latency by 30%. • Increased user engagement and lead conversion by 35% through AI-personalized conversations and seamless integration of Calendly and Telegram widgets for instant scheduling and engagement.  ",
+    technologies:["React","FastAPI","Python","Tailwind","OpenAI","API","Pinecone","AI","Langchain","RAG"],
+      link:"https://chatbot-3-frontend.vercel.app/"
   },
   {
     title: "Portfolio Website",
