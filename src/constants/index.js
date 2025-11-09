@@ -67,6 +67,15 @@ Figma, Agile & System Design boosting efficiency & user experience by 35%.
 
 
 export const PROJECTS = [
+   {
+    title: "CollabDocs – Real-Time Collaborative Documentation Paltform",
+    image: project1,
+    category: "Tech",
+    description:
+      "Architected a secure, real-time collaborative platform enabling enterprises to create, edit, and share documents within private networks ensuring 100% data privacy and controlled access. Built with React (Vite), Tailwind CSS, and a microservice-based backend using Express.js, MongoDB, Redis (Upstash), Kafka, Socket.io, JWT, and Bcrypt — achieving lower latency and stable performance under 10K+ concurrent sessions in load testing. Implemented RBAC with encrypted authentication JWT, Bcrypt and no-copy viewer mode, strengthening document security & compliance. • Integrated real-time document editing, 1:1 and group chat, and synchronized collaboration sessions with instant updates using Socket.io.  ",
+    technologies:["React","Node.js","Express.js","MongoDB","Tailwind","JWT","Microservices","Kafka","Docker","Socket.io","Redis"],
+      link:"https://collab-docs-io.vercel.app/"
+  },
   {
     title: " AI-Powered Medical Service Company ChatBot ",
     image: project1,
